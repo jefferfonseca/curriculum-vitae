@@ -1,7 +1,9 @@
-body, html {
+body,
+html {
   height: 100%;
-  font-family: "Verb","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif!important;
+  font-family: "Verb", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
+
 header {
   border-bottom: 4px solid white;
   height: 15rem;
@@ -16,12 +18,17 @@ img.avatar {
   padding: 0;
   border-radius: 800px;
   overflow: hidden;
+  /* animation: mover 3s 1; */
 }
 
-div.perfil{
-  width: 50%;
-}
-
+/* @keyframes mover{
+  0%{margin-left: 0px;}
+  20%{margin-left: -20px;}
+  40%{margin-left: -40px;}
+  60%{margin-left: -60px;}
+  80%{margin-left: -80px;}
+  100%{margin-left: -100px;}
+} */
 h1 {
   font-size: 40px;
   color: #27353f;
@@ -37,10 +44,10 @@ h2 {
 }
 
 p {
-  margin: 30px auto;
+  margin: 0 auto;
   color: #9fadb7;
   font-size: 15px;
   line-height: 1.5em;
   font-weight: 400;
-  word-break:break-all;
+  word-break: break-all;
 }
