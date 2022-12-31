@@ -1,0 +1,14 @@
+.card-body {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+.card-body{
+  color: black;
+  text-align: center;
+}
+section{
+  background-color: rgba(82, 81, 81, 0.125);
+}
+.col{
+  min-height: 30em;
+}

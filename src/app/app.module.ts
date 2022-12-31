@@ -19,8 +19,8 @@ const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'perfil', component: PerfilComponent },
   { path: 'contacto', component: ContactoComponent },
-  { path: '', redirectTo: '/page-not-found', pathMatch: 'full'},
-  { path: '**', component: PageNotFoundComponent } // error 404
+  { path: '', redirectTo: '/inicio', pathMatch: 'full'},
+  { path: '**', component: InicioComponent } // error 404
 ];
 
 @NgModule({
