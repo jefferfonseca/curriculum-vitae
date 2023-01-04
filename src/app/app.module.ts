@@ -17,6 +17,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { BasicComponent } from './components/basic/basic.component';
+import { BotonFlotanteComponent } from './components/boton-flotante/boton-flotante.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -39,7 +40,8 @@ const routes: Routes = [
     SkillsComponent,
     AvatarComponent,
     PortafolioComponent,
-    BasicComponent
+    BasicComponent,
+    BotonFlotanteComponent
   ],
   imports: [
     BrowserModule,

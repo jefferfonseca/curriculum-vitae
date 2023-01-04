@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#btn-mas {
+  display: none;
+}
+
+.container-btn {
+  position: fixed;
+  bottom: 45px;
+  right: 10px;
+  z-index: 1030;
+}
+
+.redes a,
+.fa-angle-up {
+  display: block;
+  text-decoration: none;
+  background-color: #198754;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: O 1 10 rgba(0, 0, 0, 4);
+  transition: all 400ms ease;
+}
+
+.redes a:hover {
+  background: #fff;
+  color: #198754;
+}
+
+.redes a {
+  margin: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#btn-mas:checked~.redes a {
+  margin: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#btn-mas:checked~.btn-mas .fa-angle-up {
+  color: #198754;
+  background-color: #fff;
+  border: 2px solid #198754;
+  transform: rotate(180deg);
+  font-size: 25px;
+}
