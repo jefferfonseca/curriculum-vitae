@@ -15,11 +15,15 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
+import { PortafolioComponent } from './components/portafolio/portafolio.component';
+import { BasicComponent } from './components/basic/basic.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'perfil', component: PerfilComponent },
   { path: 'skills', component: SkillsComponent },
+  { path: 'basic', component: BasicComponent },
+  { path: 'portafolio', component: PortafolioComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full'},
   { path: '**', component: InicioComponent } // error 404
@@ -33,7 +37,9 @@ const routes: Routes = [
     PerfilComponent,
     InicioComponent,
     SkillsComponent,
-    AvatarComponent
+    AvatarComponent,
+    PortafolioComponent,
+    BasicComponent
   ],
   imports: [
     BrowserModule,

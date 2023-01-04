@@ -1,0 +1,23 @@
+.container.estudio{
+    border-bottom: 3px solid #198754 ;
+}
+.nav-link.nav-link {
+  color: #198754;
+}
+
+.nav-link.active {
+  background-color: #198754;
+  color: white;
+}
+
+span {
+  color: #198754;
+}
+
+p, h5,h6 {
+  margin: 0;
+}
+li{
+    text-align: left;
+    list-style: none;
+  }
