@@ -16,8 +16,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
-import { BasicComponent } from './components/basic/basic.component';
 import { BotonFlotanteComponent } from './components/boton-flotante/boton-flotante.component';
+import { BasicComponent } from './components/basic/basic.component';
 
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
@@ -40,8 +40,8 @@ const routes: Routes = [
     SkillsComponent,
     AvatarComponent,
     PortafolioComponent,
+    BotonFlotanteComponent,
     BasicComponent,
-    BotonFlotanteComponent
   ],
   imports: [
     BrowserModule,

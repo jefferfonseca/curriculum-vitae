@@ -7,7 +7,3 @@
     text-align: left;
     list-style: none;
   }
-  .progress {
-    --mdb-progress-height: 12px;
-    --mdb-progress-font-size: 0.65rem;
-  }
