@@ -1,4 +1,6 @@
-.card-body {
+.progress-bar{
+  background-color: #00a859;
+}.card-body {
     border-top: 1px solid rgba(0, 0, 0, .125);
     border-radius: 0.25rem;
   }
@@ -8,5 +10,5 @@
     list-style: none;
   }
   span {
-    color: #198754;
+    color: #00a859;
   }

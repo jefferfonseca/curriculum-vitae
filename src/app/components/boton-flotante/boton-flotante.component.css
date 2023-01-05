@@ -13,7 +13,7 @@
   .fa-angle-up {
     display: block;
     text-decoration: none;
-    background-color: #198754;
+    background-color: #00a859;
     color: #fff;
     width: 45px;
     height: 45px;
@@ -26,7 +26,7 @@
   
   .redes a:hover {
     background: #fff;
-    color: #198754;
+    color: #00a859;
   }
   
   .redes a {
@@ -42,9 +42,9 @@
   }
   
   #btn-mas:checked~.btn-mas .fa-angle-up {
-    color: #198754;
+    color: #00a859;
     background-color: #fff;
-    border: 2px solid #198754;
+    border: 2px solid #00a859;
     transform: rotate(180deg);
     font-size: 25px;
   }

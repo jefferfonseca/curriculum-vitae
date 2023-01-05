@@ -1,17 +1,17 @@
 .container.estudio{
-    border-bottom: 3px solid #198754;
+    border-bottom: 3px solid #00a859;
 }
 .nav-link.nav-link {
-  color: #198754;
+  color: #00a859;
 }
 
 .nav-link.active {
-  background-color: #198754;
+  background-color: #00a859;
   color: white;
 }
 
 span {
-  color: #198754;
+  color: #00a859;
 }
 
 p, h5,h6 {

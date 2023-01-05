@@ -1,10 +1,10 @@
 
 
 <div class="container w-70 text-center">
-  <span class="badge rounded-pill bg-success">Exacto&nbsp;</span>&nbsp;
-  <span class="badge rounded-pill bg-success">Activo</span>&nbsp;
-  <span class="badge rounded-pill bg-success">Sistemático</span>&nbsp;
-  <span class="badge rounded-pill bg-success">Perfeccionista</span>
+  <span class="badge rounded-pill ">Exacto&nbsp;</span>&nbsp;
+  <span class="badge rounded-pill ">Activo</span>&nbsp;
+  <span class="badge rounded-pill ">Sistemático</span>&nbsp;
+  <span class="badge rounded-pill ">Perfeccionista</span>
   <p *ngIf="show; else ShowDos" style="text-align: justify;">
     Jeferson es una persona pensadora meticulosa y exacta, con un dinamismo
     innato para la solución de problemas. Tiene habilidades analíticas y
@@ -12,7 +12,7 @@
     Puede tener una amplia gama de intereses.
     <br />
   </p>
-  <button class="btn text-success" (click)="show = !show" *ngIf="show">Leer más...</button>
+  <button class="btn mas"  (click)="show = !show" *ngIf="show">Leer más...</button>
   <ng-template #ShowDos>
     <p *ngIf="!show" style="text-align: justify;">
       Jeferson es una persona pensadora meticulosa y exacta, con un dinamismo
@@ -39,7 +39,7 @@
       tener que ceder el control o el poder. Posiblemente sienta como una
       pérdida de tiempo las conversaciones sociales "irrelevantes".
     </p>
-    <button class="btn btn-success" (click)="show = !show">
+    <button class="btn menos" (click)="show = !show">
       Leer menos...
     </button>
   </ng-template>
