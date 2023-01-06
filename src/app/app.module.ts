@@ -14,7 +14,6 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { SkillsComponent } from './components/skills/skills.component';
-import { AvatarComponent } from './components/avatar/avatar.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { BotonFlotanteComponent } from './components/boton-flotante/boton-flotante.component';
 import { BasicComponent } from './components/basic/basic.component';
@@ -38,7 +37,6 @@ const routes: Routes = [
     PerfilComponent,
     InicioComponent,
     SkillsComponent,
-    AvatarComponent,
     PortafolioComponent,
     BotonFlotanteComponent,
     BasicComponent,
